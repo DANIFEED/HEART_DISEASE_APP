@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="Прогноз сердечных заболеваний", layout="centered")
 
 # === ПУТЬ К МОДЕЛИ ===
-MODEL_PATH = '/Users/danilabalakin/Documents/ds-phase-1/05-supervised/best_model.pkl'
+MODEL_PATH = 'best_model.pkl'
 
 
 if not os.path.exists(MODEL_PATH):
